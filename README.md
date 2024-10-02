@@ -1,4 +1,5 @@
-#Créer un plugin WordPress pour limiter la taille des titres à 80 caractères afin de pouvoir automatiser un blog sans tout casser. Voici un guide étape par étape pour créer ce plugin:
+#Créer un plugin WordPress pour limiter la taille des titres à 80 caractères afin de pouvoir automatiser un blog sans tout casser. Voici un guide étape par étape pour créer ce plugin.
+Je partage ici tous le soutils bricolés pour mes campagnes seo pour [internet communication](https://www.internetcommunication.fr)
 
 > *Pré-requis* : à tester dans un environnement de préprod.
 
@@ -8,7 +9,7 @@
 
 php
 
-<?php
+
 /*
 Plugin Name: Limiter Taille Titres
 Plugin URI: https://exemple.com/limiter-taille-titres
