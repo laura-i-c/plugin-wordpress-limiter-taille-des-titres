@@ -1,0 +1,31 @@
+# J'ai aussi une autre solution via une css
+
+> *Consigne* : Vous pouvez ajouter ce code CSS dans votre fichier de thème, dans la section Apparence > Personnaliser > CSS supplémentaire ou directement dans votre fichier style.css de votre thème enfant si vous en utilisez un.
+
+##Solution 1: Limiter la longueur d'un titre avec des ellipses
+Cela coupera le texte après un certain nombre de lignes et ajoutera des ellipses (...).
+
+.entry-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limite à 2 lignes */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+##Solution 2 : Limiter la largeur maximale du titre
+Cela fixe une largeur maximale au titre, le texte s'adaptera et passera à la ligne si nécessaire.
+
+.entry-title {
+    max-width: 300px; /* Ajustez selon vos besoins */
+    word-wrap: break-word;
+}
+
+
+##Solution 3 : Limiter la taille du texte (font-size)
+Si vous voulez simplement réduire la taille de la police pour que le titre ne prenne pas trop de place :
+
+.entry-title {
+    font-size: 24px; /* Ajustez selon vos besoins */
+}
