@@ -35,3 +35,4 @@ add_filter('the_title', 'ltt_limiter_taille_titres');
 ###Étape 5: Activez le plugin : Connectez-vous à votre tableau de bord WordPress, allez dans "Extensions", recherchez "Limiter Taille Titres" dans la liste des plugins, et activez-le.
 
 ###Maintenant, tous les titres affichés sur votre site seront automatiquement limités à 80 caractères. Notez que cela n'affecte pas les titres enregistrés dans la base de données, mais seulement leur affichage sur le site.
+###Je vais proposer mes autres plugins si cela peut aider
